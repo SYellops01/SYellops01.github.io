@@ -5,7 +5,7 @@ slug: etoro-portfolio-project
 model_name: "mart_etoro_portfolio"
 summary: "Streamlit-in-Snowflake solution leveraging dbt to expose eToro portfolio data."
 order: 1
-thumbnail: thumbs/lineage-a.html
+thumbnail: /assets/images/projects/etoro/trading_thumbnail.jpg
 stack: ["dbt", "Snowflake", "SQL", "Airflow", "Kafka", "Python"]
 demo_url: ""
 code_url: "https://github.com/SYellops01/etoro_portfolio_project"
