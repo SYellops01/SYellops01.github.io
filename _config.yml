@@ -1,6 +1,6 @@
 title: "Sam Yellops"
 tagline: "Data Consultant"
-description: "A commerically-focussed Data Consultant with over 3 years of proven experience across the analytics lifecycle, delivering successful, scalable data products tied to business outcomes"
+description: "A Data Consultant with over 3 years of proven experience across the analytics lifecycle, delivering successful, scalable data products tied directly to business outcomes."
 
 email: "sam.yellops@gmail.com"
 linkedin: "https://www.linkedin.com/in/sam-yellops01"
@@ -11,8 +11,9 @@ bio: >
   I'm a commercially-minded Data Consultant and Economics Graduate with a proven record of transforming raw data into scalable, 
   business-ready products across financial datasets. 
   Experienced across the analytics lifecycle, I bridge the gap between client requirements and technical delivery, 
-  using a combination of domain knowledge with technical capability in SQL, Platform Engineering (Snowflake Core Certified) 
-  and Business Intelligence to architect successful data products.
+  combining domain knowledge with technical capability in SQL, Platform Engineering (Snowflake Core Certified) 
+  and Business Intelligence to architect successful data products - recent highlights include applying LLM-based analysis at scale to identify opportunities to reduce incoming call centre volumes by 10% 
+  and building a semantic layer unlocking self-service reporting for 50+ analysts.
 
 skills:
   - dbt
