@@ -36,7 +36,7 @@ layout: default
       <div class="project-card">
         <a class="card-link" href="{{ project.url | relative_url }}">
           <div class="project-thumb">
-            {% include {{ project.thumbnail }} %}
+            <img src="{{ project.thumbnail | relative_url }}" alt="{{ project.title }}">
           </div>
           <div class="project-body">
             <h3>{{ project.title }}</h3>
