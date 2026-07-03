@@ -1,0 +1,55 @@
+title: "Sam Yellops"
+tagline: "Analytics Engineer"
+description: "Commerically-focussed Analytics Engineer with a proven record across the analytics lifecycle, delivering successful, scalable data products tied to business outcomes"
+
+email: "sam.yellops@gmail.com"
+linkedin: "https://www.linkedin.com/in/sam-yellops01"
+github: "https://github.com/SYellops01"         
+resume_url: ""                                     
+
+bio: >
+  I'm a commercially-minded Data Consultant and Economics Graduate with a proven record of transforming raw data into scalable, 
+  business-ready products across financial datasets. 
+  Experienced across the analytics lifecycle, I bridge the gap between client requirements and technical delivery, 
+  using a combination of domain knowledge with technical capability in SQL, Platform Engineering (Snowflake Core Certified) 
+  and Business Intelligence to architect successful data products.
+
+skills:
+  - dbt
+  - SQL
+  - Snowflake (SnowPro Core Certified)
+  - Business Intelligence
+  - Python
+  - Data Modelling
+  - Agile Product Delivery
+  - Stakeholder Engagement
+  - Requirements Elicitation
+  - Value Realisation
+
+# ------------------------------------------------------------------
+# Site plumbing — no need to touch this
+# ------------------------------------------------------------------
+collections:
+  projects:
+    output: true
+    permalink: /projects/:slug/
+
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+markdown: kramdown
+sass:
+  style: compressed
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock

@@ -1,0 +1,72 @@
+---
+layout: default
+---
+
+<div class="wrap hero">
+  <div class="tagline">{{ site.tagline }}</div>
+  <h1>Hi, I'm {{ site.title | split: ' ' | first }}.<br>{{ site.tagline }}.</h1>
+  <p class="lede">{{ site.description }}</p>
+  <div class="hero-actions">
+    <a class="btn btn-primary" href="#projects">View projects</a>
+    <a class="btn btn-secondary" href="mailto:{{ site.email }}">Get in touch</a>
+  </div>
+</div>
+
+<section id="about">
+  <div class="wrap">
+    <span class="eyebrow">-- stg_about.sql</span>
+    <h2>About</h2>
+    <p>{{ site.bio }}</p>
+
+    <ul class="skills">
+      {% for skill in site.skills %}
+        <li>{{ skill }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="wrap">
+    <span class="eyebrow">-- mart_projects.sql</span>
+    <h2>Selected work</h2>
+    <p class="muted">A couple of projects, end to end — the problem, the model, and the impact.</p>
+
+    <div class="project-grid">
+      {% assign sorted_projects = site.projects | sort: 'order' %}
+      {% for project in sorted_projects %}
+      <div class="project-card">
+        <a class="card-link" href="{{ project.url | relative_url }}">
+          <div class="project-thumb">
+            {% include {{ project.thumbnail }} %}
+          </div>
+          <div class="project-body">
+            <div class="project-model-name">{{ project.model_name }}</div>
+            <h3>{{ project.title }}</h3>
+            <p>{{ project.summary }}</p>
+            <div class="stack-row">
+              {% for tech in project.stack limit: 4 %}
+                <span class="stack-tag">{{ tech }}</span>
+              {% endfor %}
+            </div>
+            <span class="read-more">Read the write-up &rarr;</span>
+          </div>
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="wrap">
+    <span class="eyebrow">-- dest_contact.sql</span>
+    <h2>Let's talk</h2>
+    <p class="muted">Open to analytics engineering roles and conversations about data modeling, pipelines, or anything in between.</p>
+    <div class="contact-actions">
+      <a class="btn btn-primary" href="mailto:{{ site.email }}">{{ site.email }}</a>
+      {% if site.linkedin %}<a class="btn btn-secondary" href="{{ site.linkedin }}" target="_blank" rel="noopener">LinkedIn</a>{% endif %}
+      {% if site.github %}<a class="btn btn-secondary" href="{{ site.github }}" target="_blank" rel="noopener">GitHub</a>{% endif %}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,36 @@
+---
+layout: default
+---
+<div class="wrap">
+  <div class="project-header">
+    <a class="back-link" href="{{ '/' | relative_url }}#projects">&larr; back to projects</a>
+    <div class="project-model-name">{{ page.model_name | default: page.slug }}</div>
+    <h1>{{ page.title }}</h1>
+    {% if page.subtitle %}<p class="subtitle">{{ page.subtitle }}</p>{% endif %}
+
+    {% if page.stack %}
+    <div class="project-meta">
+      {% for tech in page.stack %}
+        <span class="stack-tag">{{ tech }}</span>
+      {% endfor %}
+    </div>
+    {% endif %}
+
+    {% if page.thumbnail %}
+      <div class="project-hero-thumb">
+        {% include {{ page.thumbnail }} %}
+      </div>
+    {% endif %}
+  </div>
+
+  <div class="project-content">
+    {{ content }}
+
+    {% if page.demo_url or page.code_url %}
+    <div class="project-links">
+      {% if page.demo_url %}<a class="btn btn-primary" href="{{ page.demo_url }}" target="_blank" rel="noopener">View demo</a>{% endif %}
+      {% if page.code_url %}<a class="btn btn-secondary" href="{{ page.code_url }}" target="_blank" rel="noopener">View code</a>{% endif %}
+    </div>
+    {% endif %}
+  </div>
+</div>
