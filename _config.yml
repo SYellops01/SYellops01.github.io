@@ -31,16 +31,26 @@ skills:
 # Site plumbing — no need to touch this
 # ------------------------------------------------------------------
 collections:
-  projects:
+  client_projects:
     output: true
-    permalink: /projects/:slug/
+    permalink: /client-projects/:slug/
+  personal_projects:
+    output: true
+    permalink: /personal-projects/:slug/
 
 defaults:
   - scope:
       path: ""
-      type: "projects"
+      type: "client_projects"
     values:
       layout: "project"
+
+  - scope:
+      path: ""
+      type: "personal_projects"
+    values:
+      layout: "project"
+
   - scope:
       path: ""
     values:
