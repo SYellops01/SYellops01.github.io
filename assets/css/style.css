@@ -49,7 +49,7 @@ button:focus-visible {
   border-radius: 4px;
 }
 
-img { max-width: 100%; display: block; }
+img { max-width: 100%; height: auto; display: block; }
 
 .wrap {
   max-width: var(--max-width);
@@ -231,8 +231,6 @@ section + section { border-top: 1px solid var(--line); }
   background: var(--bg);
   border-bottom: 1px solid var(--line);
   overflow: hidden;
-  padding: 16px;
-  box-sizing: border-box;
 }
 .project-thumb svg { width: 100%; height: 100%; display: block; }
 .project-thumb img {
@@ -334,8 +332,6 @@ section + section { border-top: 1px solid var(--line); }
   overflow: hidden;
   margin: 32px 0 8px;
   background: var(--bg);
-  padding: 16px;
-  box-sizing: border-box;
 }
 .project-hero-thumb img {
   width: 100%;
