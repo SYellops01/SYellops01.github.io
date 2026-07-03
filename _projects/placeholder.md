@@ -32,9 +32,3 @@ morning of stale dashboards.
 - Nightly runtime dropped from ~3 hours to ~25 minutes.
 - Warehouse compute cost for the pipeline fell by roughly a third.
 - Dashboards are now reliably fresh before the workday starts.
-
-## Notes
-
-Same as the first project — swap this content for your own. Keep the
-front matter fields (`title`, `summary`, `stack`, `order`, `thumbnail`)
-since the homepage and layout both read from them.

@@ -4,7 +4,7 @@ layout: default
 
 <div class="wrap hero">
   <div class="tagline">{{ site.tagline }}</div>
-  <h1>Hi, I'm {{ site.title | split: ' ' | first }}.<br>{{ site.tagline }}.</h1>
+  <h1>Hi, I'm {{ site.title | split: ' ' | first }},</h1>
   <p class="lede">{{ site.description }}</p>
   <div class="hero-actions">
     <a class="btn btn-primary" href="#projects">View projects</a>
@@ -39,11 +39,10 @@ layout: default
             {% include {{ project.thumbnail }} %}
           </div>
           <div class="project-body">
-            <div class="project-model-name">{{ project.model_name }}</div>
             <h3>{{ project.title }}</h3>
             <p>{{ project.summary }}</p>
             <div class="stack-row">
-              {% for tech in project.stack limit: 4 %}
+              {% for tech in project.stack limit: 6 %}
                 <span class="stack-tag">{{ tech }}</span>
               {% endfor %}
             </div>
