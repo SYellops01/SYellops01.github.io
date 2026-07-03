@@ -10,6 +10,7 @@ stack: ["dbt", "Snowflake", "SQL", "Airflow", "Kafka", "Python"]
 demo_url: ""
 code_url: "https://github.com/SYellops01/etoro_portfolio_project"
 ---
+<img width="1747" height="799" alt="image" src="https://github.com/user-attachments/assets/7d2ef458-db04-48e3-a0cd-68aa91890724" />
 
 ## The Problem
 
@@ -18,6 +19,7 @@ In eToro, it is not currently possible to view exposure across direct positions 
 ## The Build
 
 I designed and built a single source of truth for my portfolio in Snowflake, leveraging dbt for transformation and testing, persisting this output in a Streamlit-in-Snowflake app:
+<img width="1571" height="733" alt="image" src="https://github.com/user-attachments/assets/301119c6-b1f4-4a6d-9780-401c99c3dec2" />
 
 - **Dockerised infrastructure** to pull from API into minIO storage via Kafka. 
 - **Airflow scheduler** to schedule ingestion of data to Snowflake from minIO buckets.
@@ -33,11 +35,5 @@ I designed and built a single source of truth for my portfolio in Snowflake, lev
 - Clearly exposes performance and exposure held across industries.
 - Aggregates cash positions, including those held in mirrors, spotlighting liquidity.
 
-## Notes
-
-Replace this page's front matter and body with your own project. The
-`order` field controls where it appears in the grid, and `thumbnail`
-points at one of the two SVG diagrams in `_includes/thumbs/` — swap in
-your own screenshot by changing the `project-hero-thumb` block in
-`_layouts/project.html` to an `<img>` tag if you'd rather show a real
-image.
+<img width="1728" height="571" alt="image" src="https://github.com/user-attachments/assets/d5b91f7a-a213-4e0b-b754-8cd96bb4e833" />
+<img width="1710" height="521" alt="image" src="https://github.com/user-attachments/assets/3b7cb8ab-b06a-4dcf-920b-ebddc6b9009f" />
