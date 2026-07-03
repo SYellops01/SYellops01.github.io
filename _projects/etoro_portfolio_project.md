@@ -1,9 +1,9 @@
 ---
 title: "eToro Portfolio Project"
-subtitle: "An end-to-end pipeline exposing portfolio performance within Snowflake's modern data platform"
+subtitle: "An end-to-end pipeline exposing live eToro portfolio performance for a user. This solution leverages Docker for API Integration, Airflow for scheduling and dbt to transform data within Snowflake's modern data platform, presenting this in a Streamlit-in-Snowflake application"
 slug: etoro-portfolio-project
 model_name: "mart_etoro_portfolio"
-summary: "Streamlit-in-Snowflake solution leveraging dbt to provide trusted portfolio data."
+summary: "Streamlit-in-Snowflake solution leveraging dbt to expose eToro portfolio data."
 order: 1
 thumbnail: thumbs/lineage-a.html
 stack: ["dbt", "Snowflake", "SQL", "Airflow", "Kafka", "Python"]
