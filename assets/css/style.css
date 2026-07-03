@@ -230,13 +230,14 @@ section + section { border-top: 1px solid var(--line); }
   aspect-ratio: 16 / 9;
   background: var(--bg);
   border-bottom: 1px solid var(--line);
+  overflow: hidden;
 }
 .project-thumb svg { width: 100%; height: 100%; display: block; }
-.project-body {
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  flex-grow: 1;
+.project-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 .project-model-name {
   font-family: var(--font-mono);
@@ -325,6 +326,12 @@ section + section { border-top: 1px solid var(--line); }
   overflow: hidden;
   margin: 32px 0 8px;
   background: var(--bg);
+}
+.project-hero-thumb img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  display: block;
 }
 .project-content {
   padding: 8px 0 64px;
