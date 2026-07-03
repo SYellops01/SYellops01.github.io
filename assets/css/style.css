@@ -241,6 +241,12 @@ section + section { border-top: 1px solid var(--line); }
   object-fit: cover;
   display: block;
 }
+.project-body {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
 .project-model-name {
   font-family: var(--font-mono);
   font-size: 13px;
