@@ -31,7 +31,7 @@ layout: default
     <p class="muted">A selection of client projects that I am proud of.</p>
 
     <div class="project-grid">
-      {% assign client_projects = site.projects | where: "type", "client" | sort: 'order' %}
+      {% assign client_projects = site.client_projects | sort: 'order' %}
       {% for project in client_projects %}
       <div class="project-card">
         <div class="project-thumb">
@@ -58,7 +58,7 @@ layout: default
     <p class="muted">A couple of personal projects, end to end — the problem, the model, and the impact.</p>
 
     <div class="project-grid">
-      {% assign personal_projects = site.projects | where: "type", "personal" | sort: 'order' %}
+      {% assign personal_projects = site.personal_projects | sort: 'order' %}
       {% for project in personal_projects %}
       <div class="project-card">
         <a class="card-link" href="{{ project.url | relative_url }}">
