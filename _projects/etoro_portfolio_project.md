@@ -13,7 +13,7 @@ code_url: "https://github.com/SYellops01/etoro_portfolio_project"
 
 ## The Problem
 
-In eToro, it is not currently possible to view exposure across direct positions and those held within 'mirrors' and this project therefore addresses this shortcoming, allowing the end-user to view exposure across their whole portfolio.
+In eToro, it is not currently possible to view exposure across direct positions and those held within 'mirror' portfolios, making it difficult to view true portfolio performance and exposure across industries or sectors. This project addresses this shortcoming, allowing the end-user to view exposure and portfolio across their whole portfolio, splitting this by sector, industry, individual mirrors or individual instruments.
 
 ## The Build
 
