@@ -9,3 +9,15 @@ thumbnail: /assets/images/projects/clearsight/tableau_logo.png
 stack: ["Tableau", "Snowflake"]
 demo_url: ""
 ---
+
+## Problem Statement
+
+Finance problem statement
+
+## The Solution
+
+Solution
+
+## Impact
+
+- Quantifiable benefits
