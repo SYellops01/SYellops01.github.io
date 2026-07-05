@@ -1,5 +1,5 @@
 ---
-title: "Finance Self Service"
+title: "Finance Self Service Analytics"
 subtitle: "A self-service reporting solution unlocking analytics for 50+ analysts at Belron"
 slug: clearight_self_service
 model_name: "clearight_self_service"
@@ -12,12 +12,15 @@ demo_url: ""
 
 ## Problem Statement
 
-Finance problem statement
+The existing monthly reporting workflow between Belron Group and business units was a slow, manual process resting on siloed Excel datasets. This meant regional review meetings typically took two weeks from month-end to complete and lacked the depth to make timely decisions in response to market conditions.
 
 ## The Solution
 
-Solution
+We built Tableau Self-Service Analytics on Snowflake, exposing Oracle accounting data through a scalable semantic layer. Kitemarking and reconciliation processes ensured financial analysts could trust the data behind every dashboard. I also designed and delivered a training program that built on analysts' existing skills, accelerating adoption and turning review meetings into genuine discussions centred around this new capability.
 
 ## Impact
 
-- Quantifiable benefits
+- Delivery of four month-end reporting dashboards, with regional review meetings centred around these.
+- Budget and forecasting capability delivered, improving accuracy of planning.
+- Monthly reporting workflow reduced from 2 weeks to 4 days.
+- Self-Service, drag-and-drop capability and training released to fifty financial analysts.
