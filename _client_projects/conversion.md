@@ -8,7 +8,6 @@ order: 2
 thumbnail: /assets/images/projects/conversion/conversion_thumb.jpg
 stack: ["Tableau", "Snowflake", "Customer Analytics", "Data Modelling"]
 demo_url: ""
----
 
 sections:
   - number: "01"
@@ -30,3 +29,5 @@ sections:
       - "Budget and forecasting capability delivered, improving accuracy of planning."
       - "Monthly reporting workflow reduced from 2 weeks to 4 days."
       - "Self-Service, drag-and-drop capability and training released to fifty financial analysts."
+
+  ---
