@@ -30,4 +30,4 @@ sections:
       - "Monthly reporting workflow reduced from 2 weeks to 4 days."
       - "Self-Service, drag-and-drop capability and training released to fifty financial analysts."
 
-  ---
+---
