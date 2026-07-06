@@ -6,7 +6,7 @@ model_name: "call_centre_transcription"
 summary: "An end-to-end call transcription pipeline surfacing LLM-based insights at scale"
 order: 1
 thumbnail: /assets/images/projects/contact_centre/contact_centre_thumb.jpg
-stack: ["Python", "Vertex AI", "NLP", "Building a Business Case"]
+stack: ["Python", "AWS", "Vertex AI", "NLP", "Building a Business Case"]
 demo_url: ""
 
 sections:
