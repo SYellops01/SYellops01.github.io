@@ -5,7 +5,7 @@ slug: clearight_self_service
 model_name: "clearight_self_service"
 summary: "A self-service reporting solution unlocking analytics for 50+ analysts at Belron"
 order: 2
-thumbnail: /assets/images/projects/clearsight/tableau_logo.png
+thumbnail: /assets/images/projects/clearsight/clearsight_thumb.png
 stack: ["Tableau", "Snowflake", "FP&A", "Agile Product Delivery"]
 demo_url: ""
 
