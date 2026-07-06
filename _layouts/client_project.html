@@ -1,0 +1,46 @@
+---
+layout: default
+---
+<div class="wrap">
+  <div class="project-header">
+    <a class="back-link" href="{{ '/' | relative_url }}#projects">&larr; back to projects</a>
+    <h1>{{ page.title }}</h1>
+    {% if page.subtitle %}<p class="subtitle">{{ page.subtitle }}</p>{% endif %}
+
+    {% if page.stack %}
+    <div class="project-meta">
+      {% for tech in page.stack %}
+        <span class="stack-tag">{{ tech }}</span>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </div>
+
+  <div class="case-study">
+    {% for section in page.sections %}
+    <div class="case-section">
+      <span class="case-number">{{ section.number }}</span>
+      <div class="case-rule"><span class="case-rule-strong"></span></div>
+      <div class="case-columns">
+        <h2 class="case-heading">{{ section.heading }}</h2>
+        <div class="case-body">
+          {% for para in section.paragraphs %}
+            <p>{{ para }}</p>
+          {% endfor %}
+          {% if section.list %}
+          <ul>
+            {% for item in section.list %}<li>{{ item }}</li>{% endfor %}
+          </ul>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+
+    {% if page.demo_url or page.code_url %}
+    <div class="project-links">
+      {% if page.code_url %}<a class="btn btn-secondary" href="{{ page.code_url }}" target="_blank" rel="noopener">View code</a>{% endif %}
+    </div>
+    {% endif %}
+  </div>
+</div>
