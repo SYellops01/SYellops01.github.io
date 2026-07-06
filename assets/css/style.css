@@ -356,12 +356,70 @@ section + section { border-top: 1px solid var(--line); }
 }
 
 /* ------------------------------------------------------------------
+   Client project case-study sections (numbered, two-column)
+------------------------------------------------------------------ */
+.case-study {
+  padding: 8px 0 64px;
+}
+.case-section {
+  margin-bottom: 48px;
+}
+.case-section:last-child {
+  margin-bottom: 24px;
+}
+.case-number {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: var(--muted);
+  margin-bottom: 10px;
+}
+.case-rule {
+  position: relative;
+  height: 1px;
+  background: var(--line);
+  margin-bottom: 32px;
+}
+.case-rule-strong {
+  position: absolute;
+  left: 0;
+  top: -1px;
+  height: 2px;
+  width: 220px;
+  max-width: 100%;
+  background: var(--ink);
+}
+.case-columns {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 40px;
+}
+.case-heading {
+  font-size: 20px;
+  margin: 0;
+}
+.case-body p {
+  color: var(--ink-soft);
+  margin-bottom: 1em;
+}
+.case-body p:last-child {
+  margin-bottom: 0;
+}
+.case-body ul {
+  padding-left: 1.2em;
+  color: var(--ink-soft);
+  margin: 0;
+}
+
+/* ------------------------------------------------------------------
    Responsive
 ------------------------------------------------------------------ */
 @media (max-width: 560px) {
   .hero { padding: 56px 0 40px; }
   section { padding: 40px 0; }
   .nav-links { font-size: 14px; gap: 14px; }
+  .case-columns { grid-template-columns: 1fr; gap: 12px; }
+  .case-rule-strong { width: 100%; }
 }
 
 /* ------------------------------------------------------------------
