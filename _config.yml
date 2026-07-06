@@ -43,7 +43,7 @@ defaults:
       path: ""
       type: "client_projects"
     values:
-      layout: "project"
+      layout: "client_project"
 
   - scope:
       path: ""
