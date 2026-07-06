@@ -8,7 +8,6 @@ order: 1
 thumbnail: /assets/images/projects/clearsight/tableau_logo.png
 stack: ["Tableau", "Snowflake", "FP&A", "Agile Product Delivery"]
 demo_url: ""
----
 
 sections:
   - number: "01"
@@ -30,3 +29,5 @@ sections:
       - "Budget and forecasting capability delivered, improving accuracy of planning."
       - "Monthly reporting workflow reduced from 2 weeks to 4 days."
       - "Self-Service, drag-and-drop capability and training released to fifty financial analysts."
+
+---
