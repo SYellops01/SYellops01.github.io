@@ -14,7 +14,7 @@ sections:
     heading: "Problem Statement"
     paragraphs:
       - "Poor visibility over global conversion reporting, with monthly PowerPoint deck manually generated with significant data quality issues due to fragmented business input."
-      - "As-is solution acts purely as a reporting solution and fails to identify <strong>why</strong> customers fall out of the conversion funnel."
+      - "As-is solution acts purely as a reporting tool and fails to identify <strong>why</strong> customers fall out of the conversion funnel."
 
   - number: "02"
     heading: "The Solution"
