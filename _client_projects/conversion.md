@@ -13,21 +13,22 @@ sections:
   - number: "01"
     heading: "Problem Statement"
     paragraphs:
-      - "The existing monthly reporting workflow between Belron Group and business units was a slow, manual process resting on siloed Excel datasets."
-      - "This meant regional review meetings typically took two weeks from month-end to complete and lacked the depth to make timely decisions in response to market conditions."
+      - "Poor visibility over global conversion reporting, with monthly PowerPoint deck manually generated with significant data quality issues due to fragmented business input."
+      - "As-is solution acts purely as a reporting solution and fails to identify <strong>why</strong> customers fall out of the conversion funnel."
 
   - number: "02"
     heading: "The Solution"
     paragraphs:
-      - "We built Tableau Self-Service Analytics on Snowflake, exposing Oracle accounting data through a scalable semantic layer."
-      - "Kitemarking and reconciliation processes ensured financial analysts could trust the data behind every dashboard. I also designed and delivered a training program that built on analysts' existing skills, accelerating adoption and turning review meetings into genuine discussions centred around this new capability."
+      - "Flexible semantic layer built in Snowflake accounting for disparities across business unit source systems."
+      - "Key Snowflake features such as internal marketplace used to ensure timely, accurate data delivery, integrating Master Data Management to provide access to more granular, global conversion data."
+      - "Global Tableau reporting solution exposing daily opportunity and allowing for tracking of successful recovery initiatives."
 
   - number: "03"
     heading: "Impact"
     list:
-      - "Delivery of four month-end reporting dashboards, with regional review meetings centred around these."
-      - "Budget and forecasting capability delivered, improving accuracy of planning."
-      - "Monthly reporting workflow reduced from 2 weeks to 4 days."
-      - "Self-Service, drag-and-drop capability and training released to fifty financial analysts."
+      - "Delivery of two reporting dashboards driving monthly review meetings with regional leads."
+      - "Global visibility over the voice of our customer - directly quantifying the cost to the business of lost customer reasons."
+      - "Self-Service analytics identifying a direct correlation between time-to-serve (TTS) and conversion - a 1 day improvement in TTS delivers approximately a 1% pt increase in conversion."
+      - "Data Quality Tracker released to data stewards, empowering business units to resolved issues at source, improving DQ scores by 8% to date."
 
 ---

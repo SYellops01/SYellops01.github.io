@@ -28,7 +28,7 @@ skills:
   - Value Realisation
 
 # ------------------------------------------------------------------
-# Site plumbing — no need to touch this
+# Site plumbing — layouts and styles to follow for each section
 # ------------------------------------------------------------------
 collections:
   client_projects:
