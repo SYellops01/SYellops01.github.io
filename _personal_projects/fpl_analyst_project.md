@@ -15,7 +15,7 @@ code_url: "https://github.com/SYellops01/fpl_analyst"
 
 ## The Problem
 
-Winning your FPL mini-league isn’t just about picking good players—it’s about consistently making better decisions than your competitors. With increasingly complex scoring rules, form metrics, and fixture difficulty, it’s hard to quickly identify which players offer the best value within budget.
+Winning your FPL mini-league isn’t just about picking good players, but about consistently making better decisions than your competitors. With increasingly complex scoring rules, form metrics, and fixture difficulty, it’s hard to quickly identify which players offer the best value within budget.
 
 The FPL Analyst solves this by providing a natural language interface powered by Snowflake, allowing managers to directly query player performance, fixtures, and squad optimisation in real time.
 
@@ -25,11 +25,11 @@ I designed and built a five layer architecture that transforms Snowflake from a 
 <img width="1099" height="627" alt="image" src="https://github.com/user-attachments/assets/d6c1b0e0-0f5d-4de5-8294-06935b848e4e" />
 
 
-- **Layer 5** - Cortex Agent: Orchestrates semantic models and graph-based reasoning to interpret and answer user queries
-- **Layer 4** - Semantic Models: Knowledge graph and metadata layer enabling contextual understanding of players, teams, and relationships
-- **Layer 3** - Generated Views: Auto-generated ontology-driven views to standardise and simplify querying
-- **Layer 2** - Ontology Metadata: Defines entities, relationships, and properties across the FPL domain
-- **Layer 1** - Physical Storage: Graph structure using KG_NODE (entities) and KG_EDGE (relationships)
+- **Layer 5 - Cortex Agent:** Orchestrates semantic models and graph-based reasoning to interpret and answer user queries
+- **Layer 4 - Semantic Models:** Knowledge graph and metadata layer enabling contextual understanding of players, teams, and relationships
+- **Layer 3 - Generated Views:** Auto-generated ontology-driven views to standardise and simplify querying
+- **Layer 2 - Ontology Metadata:** Defines entities, relationships, and properties across the FPL domain
+- **Layer 1 - Physical Storage:** Graph structure using KG_NODE (entities) and KG_EDGE (relationships)
 
 ## Impact
 
