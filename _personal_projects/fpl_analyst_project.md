@@ -5,7 +5,7 @@ slug: etoro-portfolio-project
 model_name: "mart_etoro_portfolio"
 summary: "A Snowflake Cortex Analyst solution leveraging ontologies to deliver decision intelligence."
 order: 2
-thumbnail: /assets/images/projects/fpl/fpl_analyst_thumbnail.jpg
+thumbnail: /assets/images/projects/fpl/fpl_analyst_thumbnail.png
 stack: ["Snowflake", "Cortex", "Ontology", "Decision Intelligence"]
 demo_url: ""
 code_url: "https://github.com/SYellops01/fpl_analyst"
